@@ -1,0 +1,51 @@
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: auto;
+  height: 115px;
+  left: 152px;
+  top: 0px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 601px;
+  height: 50px;
+  left: 0px;
+  top: 32.5px;
+}
+
+.busca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  width: 393px;
+  height: 40px;
+  left: calc(50% - 393px / 2 + 104px);
+  top: 5px;
+}
+
+.login-button {
+  width: 72px;
+  height: 51px;
+  left: 16px;
+  top: 83px;
+
+  /* Azul/100% */
+  color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: transparent;
+}
